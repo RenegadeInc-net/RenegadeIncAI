@@ -1112,5 +1112,25 @@
   <string name="setting_model_page_enable_suggestion">Включить подсказки чата</string>
   <string name="assistant_page_gradient_background">Градиентный фон</string>
   <string name="assistant_page_gradient_background_desc">Использовать динамический градиентный фон на странице чата</string>
+  <string name="setting_provider_page_test_non_streaming">Обычный режим</string>
+  <string name="setting_provider_page_test_streaming">Стриминг</string>
+  <string name="setting_provider_page_test_tool_call">Вызов инструментов</string>
+  <string name="setting_provider_page_test_tool_call_result">Вызов: %1$s, Ввод: %2$s</string>
+  <string name="setting_provider_page_test_tool_call_none">Инструменты не вызваны, ответ: %s</string>
+  <string name="setting_provider_page_share_title">Поделиться конфигурацией поставщика</string>
+  <string name="development_mode">[Режим разработки]</string>
+  <string name="provider_aihubmix_desc">Обеспечивает высокую доступность и стабильность для основных моделей, таких как OpenAI, Claude и Google Gemini.</string>
+  <string name="provider_website">Веб-сайт: </string>
+  <string name="provider_topup">Пополнение: </string>
+  <string name="provider_aihubmix_short_desc">Поддержка более 200 моделей, включая GPT, Claude и Gemini</string>
+  <string name="chat_page_select_model_first">Сначала выберите модель</string>
+  <string name="chat_vm_stop_generation_before_delete">Остановите генерацию перед удалением сообщений</string>
+  <string name="skill_detail_vm_name_change_disallowed">Изменение имени навыка не допускается (поле name должно быть \"%s\")</string>
+  <string name="skill_detail_vm_save_failed">Ошибка сохранения</string>
+  <string name="translator_page_paste_text">Вставить текст</string>
+  <string name="translator_page_copy_result">Копировать результат перевода</string>
+  <string name="image_preview_dialog_saving">Сохранение...</string>
+  <string name="image_preview_dialog_saved">Изображение сохранено</string>
+  <string name="markdown_table">Таблица</string>
 </resources>
 

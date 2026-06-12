@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.highlight"
+    namespace = "me.devnull.renegadeincai.highlight"
     compileSdk = 37
 
     defaultConfig {

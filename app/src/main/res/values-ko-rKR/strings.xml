@@ -1112,5 +1112,25 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="setting_model_page_enable_suggestion">채팅 제안 활성화</string>
   <string name="assistant_page_gradient_background">그라데이션 배경</string>
   <string name="assistant_page_gradient_background_desc">채팅 페이지에서 동적 그라데이션 배경 사용</string>
+  <string name="setting_provider_page_test_non_streaming">비스트리밍</string>
+  <string name="setting_provider_page_test_streaming">스트리밍</string>
+  <string name="setting_provider_page_test_tool_call">도구 호출</string>
+  <string name="setting_provider_page_test_tool_call_result">호출: %1$s, 입력: %2$s</string>
+  <string name="setting_provider_page_test_tool_call_none">도구 호출 없음, 응답: %s</string>
+  <string name="setting_provider_page_share_title">제공업체 구성 공유</string>
+  <string name="development_mode">[개발 모드]</string>
+  <string name="provider_aihubmix_desc">OpenAI, Claude, Google Gemini 등 주요 모델에 대해 고가용성 및 안정적인 서비스를 제공합니다.</string>
+  <string name="provider_website">웹사이트: </string>
+  <string name="provider_topup">충전: </string>
+  <string name="provider_aihubmix_short_desc">GPT, Claude, Gemini 등 200개 이상의 모델 지원</string>
+  <string name="chat_page_select_model_first">모델을 먼저 선택하세요</string>
+  <string name="chat_vm_stop_generation_before_delete">메시지를 삭제하기 전에 생성을 중지하세요</string>
+  <string name="skill_detail_vm_name_change_disallowed">스킬 이름 변경은 허용되지 않습니다(name 필드는 \"%s\"여야 합니다)</string>
+  <string name="skill_detail_vm_save_failed">저장 실패</string>
+  <string name="translator_page_paste_text">텍스트 붙여넣기</string>
+  <string name="translator_page_copy_result">번역 결과 복사</string>
+  <string name="image_preview_dialog_saving">저장 중...</string>
+  <string name="image_preview_dialog_saved">이미지 저장됨</string>
+  <string name="markdown_table">테이블</string>
 </resources>
 

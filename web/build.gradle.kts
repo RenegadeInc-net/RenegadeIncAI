@@ -10,13 +10,28 @@ val buildWebUi = tasks.register<Exec>("buildWebUi") {
     description = "Build web-ui and copy its static output into the web module resources."
 
     workingDir = webUiDir.asFile
-    val hasZsh = runCatching {
-        ProcessBuilder("which", "zsh").start().waitFor() == 0
+
+    val pnpmCommand = if (System.getProperty("os.name").lowercase().contains("windows")) "pnpm.cmd" else "pnpm"
+    val pnpmExists = runCatching {
+        ProcessBuilder(pnpmCommand, "--version").start().waitFor() == 0
     }.getOrDefault(false)
-    if (hasZsh) {
-        commandLine("zsh", "-ic", "pnpm run build")
+
+    if (pnpmExists) {
+        val hasZsh = runCatching {
+            ProcessBuilder("which", "zsh").start().waitFor() == 0
+        }.getOrDefault(false)
+        if (hasZsh) {
+            commandLine("zsh", "-ic", "pnpm run build")
+        } else {
+            commandLine(pnpmCommand, "run", "build")
+        }
     } else {
-        commandLine("pnpm", "run", "build")
+        // Fallback to a harmless command if pnpm is missing
+        if (System.getProperty("os.name").lowercase().contains("windows")) {
+            commandLine("cmd", "/c", "echo pnpm not found, skipping build")
+        } else {
+            commandLine("echo", "pnpm not found, skipping build")
+        }
     }
 
     inputs.files(
@@ -35,7 +50,7 @@ val buildWebUi = tasks.register<Exec>("buildWebUi") {
 }
 
 android {
-    namespace = "me.rerere.rikkahub.web"
+    namespace = "me.devnull.renegadeincai.web"
     compileSdk {
         version = release(37)
     }

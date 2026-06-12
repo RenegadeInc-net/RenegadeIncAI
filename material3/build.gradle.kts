@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.material3"
+    namespace = "me.devnull.renegadeincai.material3"
     compileSdk = 37
 
     defaultConfig {

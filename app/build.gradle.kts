@@ -14,11 +14,11 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.rikkahub"
+    namespace = "me.devnull.renegadeincai"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "me.rerere.rikkahub"
+        applicationId = "me.devnull.renegadeincai"
         minSdk = 26
         targetSdk = 37
         versionCode = 162

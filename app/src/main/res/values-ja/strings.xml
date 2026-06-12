@@ -1112,5 +1112,25 @@ mDNSアドレス: .localホスト名を使用し、IPを知らなくても同じ
   <string name="setting_model_page_enable_suggestion">チャット提案を有効にする</string>
   <string name="assistant_page_gradient_background">グラデーション背景</string>
   <string name="assistant_page_gradient_background_desc">チャットページで動的なグラデーション背景を使用します</string>
+  <string name="setting_provider_page_test_non_streaming">非ストリーミング</string>
+  <string name="setting_provider_page_test_streaming">ストリーミング</string>
+  <string name="setting_provider_page_test_tool_call">ツール呼び出し</string>
+  <string name="setting_provider_page_test_tool_call_result">呼び出し: %1$s, 入力: %2$s</string>
+  <string name="setting_provider_page_test_tool_call_none">ツール呼び出しなし、応答: %s</string>
+  <string name="setting_provider_page_share_title">プロバイダー設定を共有</string>
+  <string name="development_mode">[開発モード]</string>
+  <string name="provider_aihubmix_desc">OpenAI、Claude、Google Geminiなどの主要モデルに高並列で安定したサービスを提供します。</string>
+  <string name="provider_website">ウェブサイト: </string>
+  <string name="provider_topup">チャージ: </string>
+  <string name="provider_aihubmix_short_desc">GPT、Claude、Geminiなど200以上のモデルをサポート</string>
+  <string name="chat_page_select_model_first">最初にモデルを選択してください</string>
+  <string name="chat_vm_stop_generation_before_delete">メッセージを削除する前に生成を停止してください</string>
+  <string name="skill_detail_vm_name_change_disallowed">スキル名の変更は許可されていません（nameフィールドは\"%s\"である必要があります）</string>
+  <string name="skill_detail_vm_save_failed">保存に失敗しました</string>
+  <string name="translator_page_paste_text">テキストを貼り付け</string>
+  <string name="translator_page_copy_result">翻訳結果をコピー</string>
+  <string name="image_preview_dialog_saving">保存中...</string>
+  <string name="image_preview_dialog_saved">画像を保存しました</string>
+  <string name="markdown_table">テーブル</string>
 </resources>
 

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.baselineprofile"
+    namespace = "me.devnull.renegadeincai.baselineprofile"
     compileSdk = 37
 
     compileOptions {

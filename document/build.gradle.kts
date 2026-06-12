@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.document"
+    namespace = "me.devnull.renegadeincai.document"
     compileSdk = 37
 
     defaultConfig {

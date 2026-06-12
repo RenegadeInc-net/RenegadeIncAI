@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.search"
+    namespace = "me.devnull.renegadeincai.search"
     compileSdk = 37
 
     defaultConfig {

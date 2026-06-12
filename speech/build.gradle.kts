@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.speech"
+    namespace = "me.devnull.renegadeincai.speech"
     compileSdk = 37
 
     defaultConfig {

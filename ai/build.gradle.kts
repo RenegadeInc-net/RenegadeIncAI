@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "me.rerere.ai"
+    namespace = "me.devnull.renegadeincai.ai"
     compileSdk = 37
 
     defaultConfig {

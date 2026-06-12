@@ -7,7 +7,7 @@
   <string name="about_page_version">Version</string>
   <string name="about_page_website">Website</string>
   <string name="add">Add</string>
-  <string name="app_name">RikkaHub</string>
+  <string name="app_name">RenegadeIncAI</string>
   <string name="asr_button_content_description">Speech Recognition</string>
   <string name="asr_button_stop">Stop</string>
   <string name="assistant_detail_basic_desc">Configure name, avatar, model, and parameters</string>
@@ -890,7 +890,7 @@
   <string name="setting_provider_page_api_base_url">API Base Url</string>
   <string name="setting_provider_page_api_key">API Key</string>
   <string name="setting_provider_page_api_path">API Path</string>
-  <string name="setting_provider_page_avaliable_models">Avaliable Models</string>
+  <string name="setting_provider_page_avaliable_models">Available Models</string>
   <string name="setting_provider_page_balance_api_path">Balance API Path</string>
   <string name="setting_provider_page_balance_info">"Get account balance "</string>
   <string name="setting_provider_page_balance_json_key">Result Json Key</string>
@@ -1110,5 +1110,25 @@
   <string name="setting_provider_page_include_history_reasoning">Include History Reasoning</string>
   <string name="assistant_page_gradient_background">Gradient Background</string>
   <string name="assistant_page_gradient_background_desc">Use a dynamic gradient background on the chat page</string>
+  <string name="setting_provider_page_test_non_streaming">Non-streaming</string>
+  <string name="setting_provider_page_test_streaming">Streaming</string>
+  <string name="setting_provider_page_test_tool_call">Tool calling</string>
+  <string name="setting_provider_page_test_tool_call_result">Calling: %1$s, Input: %2$s</string>
+  <string name="setting_provider_page_test_tool_call_none">No tool call, response: %s</string>
+  <string name="setting_provider_page_share_title">Share Provider Configuration</string>
+  <string name="development_mode">[Development Mode]</string>
+  <string name="provider_aihubmix_desc">Provides high-concurrency and stable services for mainstream models such as OpenAI, Claude, and Google Gemini.</string>
+  <string name="provider_website">Website: </string>
+  <string name="provider_topup">Top-up: </string>
+  <string name="provider_aihubmix_short_desc">Supports 200+ models including GPT, Claude, and Gemini</string>
+  <string name="chat_page_select_model_first">Please select a model first</string>
+  <string name="chat_vm_stop_generation_before_delete">Please stop generation before deleting messages</string>
+  <string name="skill_detail_vm_name_change_disallowed">Changing skill name is not allowed (name field must be \"%s\")</string>
+  <string name="skill_detail_vm_save_failed">Save failed</string>
+  <string name="translator_page_paste_text">Paste text</string>
+  <string name="translator_page_copy_result">Copy translation result</string>
+  <string name="image_preview_dialog_saving">Saving...</string>
+  <string name="image_preview_dialog_saved">Image saved</string>
+  <string name="markdown_table">Table</string>
 </resources>
 
