@@ -28,7 +28,7 @@ public class Shade
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

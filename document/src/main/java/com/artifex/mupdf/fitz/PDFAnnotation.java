@@ -31,7 +31,7 @@ public class PDFAnnotation
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 
@@ -112,7 +112,7 @@ public class PDFAnnotation
 	public static final int BORDER_EFFECT_NONE = 0;
 	public static final int BORDER_EFFECT_CLOUDY = 1;
 
-	public static final int IS_INVISIBLE = 1 << (1-1);
+	public static final int IS_INVISIBLE = 1 << (0);
 	public static final int IS_HIDDEN = 1 << (2-1);
 	public static final int IS_PRINT = 1 << (3-1);
 	public static final int IS_NO_ZOOM = 1 << (4-1);

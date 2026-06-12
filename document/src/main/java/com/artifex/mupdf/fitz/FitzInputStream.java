@@ -31,9 +31,9 @@ public class FitzInputStream extends InputStream
 		Context.init();
 	}
 
-	private long pointer;
-	private long markpos;
-	private boolean closed;
+	private final long pointer;
+	private final long markpos;
+	private final boolean closed;
 
 	protected native void finalize();
 

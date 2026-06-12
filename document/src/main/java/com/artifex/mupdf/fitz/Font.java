@@ -37,7 +37,7 @@ public class Font
 	public static final int ADOBE_JAPAN = 2;
 	public static final int ADOBE_KOREA = 3;
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

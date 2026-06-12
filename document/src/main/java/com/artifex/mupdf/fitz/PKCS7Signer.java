@@ -28,7 +28,7 @@ public abstract class PKCS7Signer
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

@@ -28,7 +28,7 @@ public class Path implements PathWalker
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 
@@ -108,20 +108,20 @@ public class Path implements PathWalker
 
 		public void moveTo(float x, float y) {
 			out.append(
-				Float.toString(x) + " " + Float.toString(y) +
+                x + " " + y +
 				" m" + separator);
 		}
 
 		public void lineTo(float x, float y) {
 			out.append(
-				Float.toString(x) + " " + Float.toString(y) +
+                x + " " + y +
 				" l" + separator);
 		}
 
 		public void curveTo(float cx1, float cy1, float cx2, float cy2, float ex, float ey) {
 			out.append(
-				Float.toString(cx1) + " " + Float.toString(cy1) +
-				Float.toString(cx2) + " " + Float.toString(cy2) +
+                cx1 + " " + cy1 +
+                    cx2 + " " + cy2 +
 				" c" + separator);
 		}
 

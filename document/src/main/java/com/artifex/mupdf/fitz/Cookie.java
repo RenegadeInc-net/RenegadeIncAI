@@ -28,7 +28,7 @@ public class Cookie
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

@@ -45,7 +45,7 @@ public abstract class PKCS7Verifier
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

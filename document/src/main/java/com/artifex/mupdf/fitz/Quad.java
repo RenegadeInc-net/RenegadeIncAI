@@ -144,11 +144,8 @@ public class Quad
 			return ax == x && ay == y;
 		if (crossa >= 0 && crossb >= 0 && crossc >= 0)
 			return true;
-		if (crossa <= 0 && crossb <= 0 && crossc <= 0)
-			return true;
-
-		return false;
-	}
+        return crossa <= 0 && crossb <= 0 && crossc <= 0;
+    }
 
 	public boolean contains(float x, float y) {
 		return triangleContainsPoint(x, y, ul_x, ul_y, ur_x, ur_y, lr_x, lr_y) ||
@@ -224,10 +221,8 @@ public class Quad
 		if (infQuadTest(ll_x, ll_y, lr_x, lr_y, ur_x, ur_y, ul_x, ul_y)) return true;
 		if (infQuadTest(lr_x, lr_y, ur_x, ur_y, ul_x, ul_y, ll_x, ll_y)) return true;
 		if (infQuadTest(ur_x, ur_y, ul_x, ul_y, ll_x, ll_y, lr_x, lr_y)) return true;
-		if (infQuadTest(ul_x, ul_y, ll_x, ll_y, lr_x, lr_y, ur_x, ur_y)) return true;
-
-		return false;
-	}
+        return infQuadTest(ul_x, ul_y, ll_x, ll_y, lr_x, lr_y, ur_x, ur_y);
+    }
 
 	public static Quad Infinite() {
 		return new Quad(Float.NEGATIVE_INFINITY, Float.POSITIVE_INFINITY, Float.POSITIVE_INFINITY, Float.POSITIVE_INFINITY, Float.NEGATIVE_INFINITY, Float.NEGATIVE_INFINITY, Float.POSITIVE_INFINITY, Float.NEGATIVE_INFINITY);

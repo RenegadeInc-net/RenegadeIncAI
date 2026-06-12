@@ -115,5 +115,5 @@ public final class AndroidDrawDevice extends NativeDevice
 		return drawPage(page, fitPageWidth(page, fitW));
 	}
 
-	public native final void invertLuminance();
+	public native void invertLuminance();
 }

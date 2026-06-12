@@ -32,7 +32,7 @@ public class PDFObject implements Iterable<PDFObject>
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 
@@ -297,13 +297,13 @@ public class PDFObject implements Iterable<PDFObject>
 	}
 
 	protected class PDFObjectIterator implements Iterator<PDFObject> {
-		private PDFObject object;
-		private boolean isarray;
+		private final PDFObject object;
+		private final boolean isarray;
 		private int position;
 
 		public PDFObjectIterator(PDFObject object) {
 			this.object = object;
-			isarray = object != null ? object.isArray() : false;
+			isarray = object != null && object.isArray();
 			position = -1;
 		}
 

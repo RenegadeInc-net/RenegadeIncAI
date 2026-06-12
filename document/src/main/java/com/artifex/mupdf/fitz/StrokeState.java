@@ -38,7 +38,7 @@ public class StrokeState
 	public static final int LINE_JOIN_BEVEL = 2;
 	public static final int LINE_JOIN_MITER_XPS = 3;
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

@@ -34,7 +34,7 @@ public interface StructuredTextWalker
 	void endStruct();
 	void onVector(Rect bbox, VectorInfo info, int argb);
 
-	public static class VectorInfo {
+	class VectorInfo {
 		public boolean isStroked;
 		public boolean isRectangle;
 	}

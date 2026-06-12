@@ -159,23 +159,23 @@ public class PDFDocument extends Document
 	}
 
 	public interface JsEventListener {
-		public static final int BUTTON_GROUP_OK = 0;
-		public static final int BUTTON_GROUP_OK_CANCEL = 1;
-		public static final int BUTTON_GROUP_YES_NO = 2;
-		public static final int BUTTON_GROUP_YES_NO_CANCEL = 3;
+		int BUTTON_GROUP_OK = 0;
+		int BUTTON_GROUP_OK_CANCEL = 1;
+		int BUTTON_GROUP_YES_NO = 2;
+		int BUTTON_GROUP_YES_NO_CANCEL = 3;
 
-		public static final int BUTTON_NONE = 0;
-		public static final int BUTTON_OK = 1;
-		public static final int BUTTON_CANCEL = 2;
-		public static final int BUTTON_NO = 3;
-		public static final int BUTTON_YES = 4;
+		int BUTTON_NONE = 0;
+		int BUTTON_OK = 1;
+		int BUTTON_CANCEL = 2;
+		int BUTTON_NO = 3;
+		int BUTTON_YES = 4;
 
-		public static class AlertResult {
+		class AlertResult {
 			public int buttonPressed;
 			public boolean checkboxChecked;
 		}
 
-		public AlertResult onAlert(PDFDocument doc, String title, String message, int iconType, int buttonGroupType, boolean hasCheckbox, String checkboxMessage, boolean checkboxState);
+		AlertResult onAlert(PDFDocument doc, String title, String message, int iconType, int buttonGroupType, boolean hasCheckbox, String checkboxMessage, boolean checkboxState);
 	}
 	public native void enableJs();
 	public native void disableJs();

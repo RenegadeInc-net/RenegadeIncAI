@@ -28,7 +28,7 @@ public class Text implements TextWalker
 		Context.init();
 	}
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

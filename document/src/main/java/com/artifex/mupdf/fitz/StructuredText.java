@@ -34,7 +34,7 @@ public class StructuredText
 	public static final int SELECT_WORDS = 1;
 	public static final int SELECT_LINES = 2;
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

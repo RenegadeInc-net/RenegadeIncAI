@@ -224,14 +224,14 @@ public class Document
 		return makeBookmark(loc.chapter, loc.page);
 	}
 
-	public static final int PERMISSION_PRINT = (int) 'p';
-	public static final int PERMISSION_COPY = (int) 'c';
-	public static final int PERMISSION_EDIT = (int) 'e';
-	public static final int PERMISSION_ANNOTATE = (int) 'n';
-	public static final int PERMISSION_FORM = (int) 'f';
-	public static final int PERMISSION_ACCESSIBILITY = (int) 'y';
-	public static final int PERMISSION_ASSEMBLE = (int) 'a';
-	public static final int PERMISSION_PRINT_HQ = (int) 'h';
+	public static final int PERMISSION_PRINT = 'p';
+	public static final int PERMISSION_COPY = 'c';
+	public static final int PERMISSION_EDIT = 'e';
+	public static final int PERMISSION_ANNOTATE = 'n';
+	public static final int PERMISSION_FORM = 'f';
+	public static final int PERMISSION_ACCESSIBILITY = 'y';
+	public static final int PERMISSION_ASSEMBLE = 'a';
+	public static final int PERMISSION_PRINT_HQ = 'h';
 
 	public native boolean hasPermission(int permission);
 

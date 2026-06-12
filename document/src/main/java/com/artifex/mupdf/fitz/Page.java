@@ -35,7 +35,7 @@ public class Page
 	public static final int ART_BOX = 4;
 	public static final int UNKNOWN_BOX = 5;
 
-	private long pointer;
+	private final long pointer;
 
 	protected native void finalize();
 

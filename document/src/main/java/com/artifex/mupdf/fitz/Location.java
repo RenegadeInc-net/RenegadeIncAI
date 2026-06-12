@@ -48,12 +48,11 @@ public class Location
 	}
 
 	public String toString() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("Location(chapter=");
-		sb.append(chapter);
-		sb.append(", page=");
-		sb.append(page);
-		sb.append(")");
-		return sb.toString();
+        String sb = "Location(chapter=" +
+            chapter +
+            ", page=" +
+            page +
+            ")";
+		return sb;
 	}
 }
