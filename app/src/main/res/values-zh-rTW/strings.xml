@@ -1116,6 +1116,7 @@
   <string name="setting_provider_page_test_tool_call_result">調用: %1$s, 入參: %2$s</string>
   <string name="setting_provider_page_test_tool_call_none">未調用工具，響應: %s</string>
   <string name="setting_provider_page_share_title">共享供應商配置</string>
+  <string name="setting_provider_page_import">匯入供應商</string>
   <string name="development_mode">[開發模式]</string>
   <string name="provider_aihubmix_desc">提供 OpenAI、Claude、Google Gemini 等主流模型的高併發和穩定服務</string>
   <string name="provider_website">官網：</string>

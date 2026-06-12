@@ -1118,6 +1118,7 @@ mDNS 地址：使用 .local 主机名，同一网络中的其他设备可通过�
   <string name="setting_provider_page_test_tool_call_result">调用: %1$s, 入参: %2$s</string>
   <string name="setting_provider_page_test_tool_call_none">未调用工具，响应: %s</string>
   <string name="setting_provider_page_share_title">共享供应商配置</string>
+  <string name="setting_provider_page_import">导入供应商</string>
   <string name="development_mode">[开发模式]</string>
   <string name="provider_aihubmix_desc">提供 OpenAI、Claude、Google Gemini 等主流模型的高并发和稳定服务</string>
   <string name="provider_website">官网：</string>

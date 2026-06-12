@@ -31,7 +31,7 @@
   <string name="assistant_importer_import_failed">가져오기 실패</string>
   <string name="assistant_importer_import_tavern_json">타번 캐릭터 카드 가져오기 (JSON)</string>
   <string name="assistant_importer_import_tavern_png">타번 캐릭터 카드 가져오기 (PNG)</string>
-  <string name="assistant_importer_importing">가져오는 중...</string>
+  <string name="assistant_importer_importing">가져오는 중…</string>
   <string name="assistant_importer_missing_data_field">데이터 필드가 누락됨</string>
   <string name="assistant_importer_missing_name_field">이름 필드가 누락됨</string>
   <string name="assistant_importer_missing_spec_field">spec 필드가 누락됨</string>
@@ -166,7 +166,7 @@
   <string name="avatar_url_dialog_title">이미지 URL 입력</string>
   <string name="avatar_url_hint">이미지 URL 입력</string>
   <string name="back">뒤로</string>
-  <string name="backup_page_backing_up">백업 중...</string>
+  <string name="backup_page_backing_up">백업 중…</string>
   <string name="backup_page_backup_items">백업 항목</string>
   <string name="backup_page_backup_now">지금 백업</string>
   <string name="backup_page_backup_success">백업 성공</string>
@@ -177,7 +177,7 @@
   <string name="backup_page_delete_failed">삭제 실패: %s</string>
   <string name="backup_page_delete_success">삭제 성공</string>
   <string name="backup_page_export_desc">앱 데이터를 파일로 내보내기</string>
-  <string name="backup_page_exporting">내보내는 중...</string>
+  <string name="backup_page_exporting">내보내는 중…</string>
   <string name="backup_page_files">파일</string>
   <string name="backup_page_import_chatbox_desc">ChatBox 공급자 구성과 전체 채팅 기록 가져오기</string>
   <string name="backup_page_import_cherry_studio_desc">Cherry Studio 공급자 설정 가져오기</string>
@@ -186,7 +186,7 @@
   <string name="backup_page_import_from_chatbox">ChatBox에서 가져오기</string>
   <string name="backup_page_import_from_cherry_studio">Cherry Studio에서 가져오기</string>
   <string name="backup_page_import_from_other_app">다른 앱에서 가져오기</string>
-  <string name="backup_page_importing">가져오는 중...</string>
+  <string name="backup_page_importing">가져오는 중…</string>
   <string name="backup_page_loading_failed">백업 파일 로드 실패: %s</string>
   <string name="backup_page_local_backup_export">파일로 내보내기</string>
   <string name="backup_page_local_backup_import">파일에서 가져오기</string>
@@ -208,7 +208,7 @@
   <string name="backup_page_restore_failed">복원 실패: %s</string>
   <string name="backup_page_restore_now">복원</string>
   <string name="backup_page_restore_success">복원 성공</string>
-  <string name="backup_page_restoring">복원 중...</string>
+  <string name="backup_page_restoring">복원 중…</string>
   <string name="backup_page_s3_access_key_id">액세스 키 ID</string>
   <string name="backup_page_s3_backup">S3 백업</string>
   <string name="backup_page_s3_backup_files">S3 백업 파일</string>
@@ -225,7 +225,7 @@
   <string name="backup_page_webdav_server_address">WebDAV 서버 주소</string>
   <string name="built_in_search_description">모델의 내장 검색 기능을 활성화합니다</string>
   <string name="built_in_search_title">내장 검색</string>
-  <string name="calculating">계산 중...</string>
+  <string name="calculating">계산 중…</string>
   <string name="cancel">취소</string>
   <string name="cancel_edit">편집 취소</string>
   <string name="chain_of_thought_collapse">접기</string>
@@ -269,7 +269,7 @@
   <string name="chat_page_compress_not_enough_messages">압축할 메시지가 부족합니다. 유지할 메시지 수를 줄이거나 더 많은 메시지를 추가하세요.</string>
   <string name="chat_page_compress_target_tokens">대상 토큰 크기</string>
   <string name="chat_page_compress_warning">⚠️ 문맥 압축 시 현재 대화의 모든 메시지가 초기화됩니다</string>
-  <string name="chat_page_compressing">압축 중...</string>
+  <string name="chat_page_compressing">압축 중…</string>
   <string name="chat_page_conversation_system_prompt">대화 시스템 프롬프트</string>
   <string name="chat_page_conversation_system_prompt_clear">지우기</string>
   <string name="chat_page_conversation_system_prompt_hint">이 대화에서 어시스턴트의 시스템 프롬프트를 재정의합니다</string>
@@ -316,7 +316,7 @@
   <string name="copy">복사</string>
   <string name="copy_all">전체 복사</string>
   <string name="create_fork">포크 생성</string>
-  <string name="db_migrating">데이터베이스 마이그레이션 중...</string>
+  <string name="db_migrating">데이터베이스 마이그레이션 중…</string>
   <string name="deep_thinking">심층 사고</string>
   <string name="deep_thinking_seconds">%1$.1f 초 동안 생각했습니다</string>
   <string name="delete">삭제</string>
@@ -327,7 +327,7 @@
   <string name="donate_page_title">후원</string>
   <string name="edit">편집</string>
   <string name="editing">편집 중</string>
-  <string name="emoji_picker_search_placeholder">이모지 검색...</string>
+  <string name="emoji_picker_search_placeholder">이모지 검색…</string>
   <string name="emoji_picker_select_skin_tone">스킨 톤 선택</string>
   <string name="error_title_compress_conversation">대화 압축 실패</string>
   <string name="error_title_generate_title">자동 제목 생성 실패</string>
@@ -403,7 +403,7 @@
   <string name="imggen_page_model_selection">모델 선택</string>
   <string name="imggen_page_model_selection_desc">이미지 생성에 사용할 AI 모델 선택</string>
   <string name="imggen_page_no_generated_images">생성된 이미지가 없습니다</string>
-  <string name="imggen_page_prompt_placeholder">생성하고 싶은 이미지를 설명하세요...</string>
+  <string name="imggen_page_prompt_placeholder">생성하고 싶은 이미지를 설명하세요…</string>
   <string name="imggen_page_save">저장</string>
   <string name="imggen_page_save_failed">저장 실패: %1$s</string>
   <string name="imggen_page_settings_title">이미지 생성 설정</string>
@@ -417,7 +417,7 @@
   <string name="language_simplified_chinese">🇨🇳 중국어(간체)</string>
   <string name="language_spanish">🇪🇸 스페인어</string>
   <string name="language_traditional_chinese">🇨🇳 중국어(번체)</string>
-  <string name="mcp_picker_syncing">MCP 서버 동기화 중...</string>
+  <string name="mcp_picker_syncing">MCP 서버 동기화 중…</string>
   <string name="mcp_picker_title">MCP 서버</string>
   <string name="menu">메뉴</string>
   <string name="menu_page_afternoon_greeting">좋은 오후입니다\uD83D\uDC4B</string>
@@ -439,12 +439,12 @@
   <string name="notification_live_update_chip_thinking">생각 중</string>
   <string name="notification_live_update_chip_tool">도구</string>
   <string name="notification_live_update_chip_writing">작성 중</string>
-  <string name="notification_live_update_thinking">생각 중...</string>
+  <string name="notification_live_update_thinking">생각 중…</string>
   <string name="notification_live_update_title">응답 생성 중…</string>
   <string name="notification_live_update_tool">도구 실행 중: %s</string>
-  <string name="notification_live_update_writing">응답 작성 중...</string>
+  <string name="notification_live_update_writing">응답 작성 중…</string>
   <string name="notification_web_server_running">웹 서버 실행 중</string>
-  <string name="notification_web_server_starting">시작 중...</string>
+  <string name="notification_web_server_starting">시작 중…</string>
   <string name="notification_web_server_stop">중지</string>
   <string name="permission_camera">카메라</string>
   <string name="permission_camera_desc">사진을 찍기 위해 카메라 권한이 필요합니다</string>
@@ -583,7 +583,7 @@
   <string name="search_detail_username">사용자 이름</string>
   <string name="search_page_hint">키워드를 입력하고 검색을 눌러 메시지를 찾으세요</string>
   <string name="search_page_no_results">결과 없음</string>
-  <string name="search_page_placeholder">메시지 내용 검색...</string>
+  <string name="search_page_placeholder">메시지 내용 검색…</string>
   <string name="search_page_rebuild_button">색인 다시 빌드</string>
   <string name="search_page_rebuild_index">메시지 색인 재구축</string>
   <string name="search_page_rebuild_index_desc">기존 색인을 삭제하고 모든 채팅 기록을 다시 검색합니다. 메시지가 많을수록 시간이 오래 걸립니다. 계속하시겠습니까?</string>
@@ -783,6 +783,16 @@
   <string name="setting_page_default_model_desc">각 기능의 기본 모델 설정</string>
   <string name="setting_page_display_setting">디스플레이 설정</string>
   <string name="setting_page_display_setting_desc">디스플레이 설정 관리</string>
+  <string name="setting_page_preferences">기본 설정</string>
+  <string name="setting_page_preferences_desc">테마, 알림, UI 및 일반 설정</string>
+  <string name="setting_page_preferences_theme">테마</string>
+  <string name="setting_page_preferences_theme_desc">다이나믹 색상, 테마, AMOLED 다크 모드</string>
+  <string name="setting_page_preferences_notification">알림</string>
+  <string name="setting_page_preferences_notification_desc">업데이트 알림, 메시지 생성 알림</string>
+  <string name="setting_page_preferences_general">일반</string>
+  <string name="setting_page_preferences_general_desc">상호작용 방식, 스크롤, 입력 설정</string>
+  <string name="setting_page_preferences_ui">UI 환경설정</string>
+  <string name="setting_page_preferences_ui_desc">메시지 표시, 글꼴, 코드 블록</string>
   <string name="setting_page_documentation">문서</string>
   <string name="setting_page_documentation_desc">앱 사용법 및 도움말 문서 보기</string>
   <string name="setting_page_donate">후원</string>
@@ -940,8 +950,8 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="setting_tts_page_add_provider_content_description">TTS 제공업체 추가</string>
   <string name="setting_tts_page_api_key">API 키</string>
   <string name="setting_tts_page_api_key_description">제공업체 API 키</string>
-  <string name="setting_tts_page_api_key_placeholder_gemini">AIza...</string>
-  <string name="setting_tts_page_api_key_placeholder_openai">sk-...</string>
+  <string name="setting_tts_page_api_key_placeholder_gemini">AIza…</string>
+  <string name="setting_tts_page_api_key_placeholder_openai">sk-…</string>
   <string name="setting_tts_page_base_url">기본 URL</string>
   <string name="setting_tts_page_base_url_description">API 기본 URL 엔드포인트</string>
   <string name="setting_tts_page_base_url_placeholder">https://api.openai.com/v1</string>
@@ -996,7 +1006,7 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="skills_page_add_title">스킬 추가</string>
   <string name="skills_page_delete_message">"%s"을(를) 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.</string>
   <string name="skills_page_delete_title">스킬 삭제</string>
-  <string name="skills_page_downloading">다운로드 중...</string>
+  <string name="skills_page_downloading">다운로드 중…</string>
   <string name="skills_page_empty_hint">오른쪽 하단의 + 버튼을 눌러 스킬을 추가하세요</string>
   <string name="skills_page_empty_title">스킬 없음</string>
   <string name="skills_page_import_confirm">가져오기</string>
@@ -1034,7 +1044,7 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="tag_input_dialog_create_new">새 태그 생성</string>
   <string name="tag_input_dialog_existing_tags">기존 태그</string>
   <string name="tag_input_dialog_label">태그 이름</string>
-  <string name="tag_input_dialog_placeholder">태그 이름 입력...</string>
+  <string name="tag_input_dialog_placeholder">태그 이름 입력…</string>
   <string name="tag_input_dialog_tag_exists">이 이름의 태그가 이미 존재합니다</string>
   <string name="tag_input_dialog_title">태그 추가</string>
   <string name="take_picture">사진 찍기</string>
@@ -1052,12 +1062,12 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="title_activity_safe_mode">안전 모드</string>
   <string name="tools_warning">현재 모델에는 도구 호출 기능이 활성화되어 있지 않습니다. 검색/MCP 기능 사용을 위해 설정에서 모델의 도구 기능을 활성화하세요.</string>
   <string name="translate">번역</string>
-  <string name="translating">번역 중...</string>
+  <string name="translating">번역 중…</string>
   <string name="translation_clear">번역 지우기</string>
   <string name="translation_language_selection_title">번역 언어 선택</string>
   <string name="translation_text">번역</string>
   <string name="translator_page_cancel">취소</string>
-  <string name="translator_page_input_placeholder">번역할 텍스트를 입력하세요...</string>
+  <string name="translator_page_input_placeholder">번역할 텍스트를 입력하세요…</string>
   <string name="translator_page_result_placeholder">번역 결과가 여기에 표시됩니다</string>
   <string name="translator_page_title">번역기</string>
   <string name="translator_page_translate">번역</string>
@@ -1086,16 +1096,6 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="setting_display_page_custom_font_not_imported">사용자 지정 글꼴이 가져와지지 않았습니다. .ttf, .otf, .ttc 파일을 지원합니다.</string>
   <string name="setting_display_page_custom_font_remove">사용자 지정 글꼴 제거</string>
   <string name="setting_display_page_custom_font_title">사용자 지정 글꼴</string>
-  <string name="setting_page_preferences">기본 설정</string>
-  <string name="setting_page_preferences_desc">테마, 알림, UI 및 일반 설정</string>
-  <string name="setting_page_preferences_theme">테마</string>
-  <string name="setting_page_preferences_theme_desc">다이나믹 색상, 테마, AMOLED 다크 모드</string>
-  <string name="setting_page_preferences_notification">알림</string>
-  <string name="setting_page_preferences_notification_desc">업데이트 알림, 메시지 생성 알림</string>
-  <string name="setting_page_preferences_general">일반</string>
-  <string name="setting_page_preferences_general_desc">상호작용 방식, 스크롤, 입력 설정</string>
-  <string name="setting_page_preferences_ui">UI 환경설정</string>
-  <string name="setting_page_preferences_ui_desc">메시지 표시, 글꼴, 코드 블록</string>
   <string name="skills_page_import_from_file">파일에서 가져오기</string>
   <string name="skills_page_add_manually">수동으로 추가</string>
   <string name="setting_model_page_tab_model">모델</string>
@@ -1118,6 +1118,7 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="setting_provider_page_test_tool_call_result">호출: %1$s, 입력: %2$s</string>
   <string name="setting_provider_page_test_tool_call_none">도구 호출 없음, 응답: %s</string>
   <string name="setting_provider_page_share_title">제공업체 구성 공유</string>
+  <string name="setting_provider_page_import">제공업체 가져오기</string>
   <string name="development_mode">[개발 모드]</string>
   <string name="provider_aihubmix_desc">OpenAI, Claude, Google Gemini 등 주요 모델에 대해 고가용성 및 안정적인 서비스를 제공합니다.</string>
   <string name="provider_website">웹사이트: </string>
@@ -1129,8 +1130,7 @@ mDNS 주소: .local 호스트네임을 사용하며, IP를 몰라도 같은 네�
   <string name="skill_detail_vm_save_failed">저장 실패</string>
   <string name="translator_page_paste_text">텍스트 붙여넣기</string>
   <string name="translator_page_copy_result">번역 결과 복사</string>
-  <string name="image_preview_dialog_saving">저장 중...</string>
+  <string name="image_preview_dialog_saving">저장 중…</string>
   <string name="image_preview_dialog_saved">이미지 저장됨</string>
   <string name="markdown_table">테이블</string>
 </resources>
-

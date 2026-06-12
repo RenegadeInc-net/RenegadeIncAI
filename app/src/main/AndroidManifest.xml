@@ -99,7 +99,7 @@
       android:foregroundServiceType="specialUse">
       <property
         android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-        android:value="local web server for LLM chat UI" />
+        android:value="@string/web_server_fgs_subtype" />
     </service>
 
     <provider
