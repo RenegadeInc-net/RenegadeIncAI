@@ -91,7 +91,7 @@ android {
             applicationIdSuffix = ".debug"
             isDebuggable = false
             isMinifyEnabled = false
-            isShrinkResources = true
+            isShrinkResources = false
             isProfileable = true
         }
     }
