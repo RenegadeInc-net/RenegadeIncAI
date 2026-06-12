@@ -1,4 +1,4 @@
-package me.rerere.rikkahub.web
+package me.devnull.renegadeai.web
 
 import org.junit.Test
 
