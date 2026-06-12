@@ -10,4 +10,5 @@
 local.properties
 .cursor
 .history
-.kotlin
+.kotlinnode_modules/
+web-ui/node_modules/
