@@ -2,9 +2,6 @@
   <img src="docs/icon.png" alt="App Icon" width="100" />
   <h1>RenegadeIncAI</h1>
 
-  [![Ask DeepWiki](https://i.postimg.cc/RhLtCBYj/tsrlogo.png)](https://renegadeinc.net)
-  [![Ask DeepWiki](https://img.shields.io/badge/zread.ai-blue?style=flat&logo=readthedocs)](https://zread.ai/rikkahub/rikkahub)
-
 A native Android LLM chat client that supports switching between different providers for
 conversations 🤖💬
 
