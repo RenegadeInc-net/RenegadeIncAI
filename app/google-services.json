@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "0",
+    "project_id": "mock-project-id"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:0:android:mock",
+        "android_client_info": {
+          "package_name": "me.devnull.renegadeincai"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "mock"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:0:android:mock-debug",
+        "android_client_info": {
+          "package_name": "me.devnull.renegadeincai.debug"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "mock"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
