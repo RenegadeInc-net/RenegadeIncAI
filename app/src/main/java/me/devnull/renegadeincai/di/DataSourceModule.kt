@@ -1,4 +1,4 @@
-﻿package me.devnull.renegadeincai.di
+package me.devnull.renegadeincai.di
 
 import androidx.room.Room
 import androidx.room.RoomDatabase

@@ -1,4 +1,4 @@
-﻿package me.devnull.renegadeincai.data.sync
+package me.devnull.renegadeincai.data.sync
 
 import android.content.Context
 import android.util.Log

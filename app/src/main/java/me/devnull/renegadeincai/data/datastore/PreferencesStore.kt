@@ -1,4 +1,4 @@
-﻿package me.devnull.renegadeincai.data.datastore
+package me.devnull.renegadeincai.data.datastore
 
 import android.content.Context
 import android.util.Log
