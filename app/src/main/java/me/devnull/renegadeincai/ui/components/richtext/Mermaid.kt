@@ -1,4 +1,4 @@
-package me.devnull.renegadeincai.ui.components.richtext
+﻿package me.devnull.renegadeincai.ui.components.richtext
 
 import android.graphics.BitmapFactory
 import android.util.Base64
@@ -282,7 +282,7 @@ private fun buildMermaidHtml(
 
                         ctx.font = '14px Arial';
                         ctx.fillStyle = '${onBackground}';
-                        ctx.fillText('rikka-ai.com', 20, canvas.height - 10);
+                        ctx.fillText('renegadeinc.net', 20, canvas.height - 10);
 
                         const pngBase64 = canvas.toDataURL('image/png').split(',')[1];
                         AndroidInterface.exportImage(pngBase64);

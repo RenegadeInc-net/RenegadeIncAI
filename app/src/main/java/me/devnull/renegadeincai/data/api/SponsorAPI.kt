@@ -1,4 +1,4 @@
-package me.devnull.renegadeincai.data.api
+﻿package me.devnull.renegadeincai.data.api
 
 import me.devnull.renegadeincai.data.model.Sponsor
 import me.devnull.renegadeincai.utils.JsonInstant
@@ -16,7 +16,7 @@ interface SponsorAPI {
         fun create(httpClient: OkHttpClient): SponsorAPI {
             return Retrofit.Builder()
                 .client(httpClient)
-                .baseUrl("https://sponsors.rikka-ai.com")
+                .baseUrl("https://sponsors.renegadeinc.net")
                 .addConverterFactory(JsonInstant.asConverterFactory("application/json".toMediaType()))
                 .build()
                 .create(SponsorAPI::class.java)

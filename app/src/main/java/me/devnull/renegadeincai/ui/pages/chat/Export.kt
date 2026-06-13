@@ -1,4 +1,4 @@
-package me.devnull.renegadeincai.ui.pages.chat
+﻿package me.devnull.renegadeincai.ui.pages.chat
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -487,7 +487,7 @@ private fun ExportedChatImage(
                                 fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
                             )
                             Text(
-                                text = "${LocalDateTime.now().toLocalString()}  rikka-ai.com",
+                                text = "${LocalDateTime.now().toLocalString()}  renegadeinc.net",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )

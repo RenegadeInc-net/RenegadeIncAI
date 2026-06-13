@@ -1,4 +1,4 @@
-package me.devnull.renegadeincai.di
+﻿package me.devnull.renegadeincai.di
 
 import androidx.room.Room
 import androidx.room.RoomDatabase
@@ -244,7 +244,7 @@ val dataSourceModule = module {
 
     single<Retrofit> {
         Retrofit.Builder()
-            .baseUrl("https://api.rikka-ai.com")
+            .baseUrl("https://api.renegadeinc.net")
             .addConverterFactory(get<Json>().asConverterFactory("application/json; charset=UTF8".toMediaType()))
             .build()
     }

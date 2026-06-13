@@ -55,7 +55,7 @@ object RenegadeHubSearchService : SearchService<SearchServiceOptions.RenegadeHub
             }
 
             val request = Request.Builder()
-                .url("https://api.rikka-ai.com/v1/search")
+                .url("https://api.renegadeinc.net/v1/search")
                 .post(body.toString().toRequestBody())
                 .addHeader("Authorization", "Bearer ${serviceOptions.apiKey}")
                 .addHeader("Content-Type", "application/json")

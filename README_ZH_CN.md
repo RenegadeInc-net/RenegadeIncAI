@@ -18,7 +18,7 @@
 
 ## 🚀 下载
 
-🔗 [前往官网下载](https://rikka-ai.com/download)
+🔗 [前往官网下载](https://renegadeinc.net/download)
 🔗 [前往 Google Play 下载](https://play.google.com/store/apps/details?id=me.devnull.renegadeincai)
 
 

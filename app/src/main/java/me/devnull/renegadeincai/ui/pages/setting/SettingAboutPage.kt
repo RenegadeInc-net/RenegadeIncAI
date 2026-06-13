@@ -157,9 +157,9 @@ fun SettingAboutPage() {
                         modifier = Modifier.padding(horizontal = 8.dp),
                     ) {
                         item(
-                            onClick = { context.openUrl("https://rikka-ai.com/") },
+                            onClick = { context.openUrl("https://renegadeinc.net/") },
                             leadingContent = { Icon(HugeIcons.Earth, null) },
-                            supportingContent = { Text("https://rikka-ai.com") },
+                            supportingContent = { Text("https://renegadeinc.net") },
                             headlineContent = { Text(stringResource(R.string.about_page_website)) },
                         )
                         item(
