@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut
         android:shortcutId="camera"
@@ -9,7 +9,7 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetClass="me.devnull.renegadeincai.ui.activity.ShortcutHandlerActivity"
-            android:data="rikkahub://shortcut" />
+            android:data="renegadehub://shortcut" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
 </shortcuts>

@@ -17,7 +17,7 @@ Click to join our Discord server 👉 [【RenegadeHub】](https://discord.gg/9we
 
 ## 🚀 Download
 
-🔗 [Download from Website](https://rikka-ai.com/download)
+🔗 [Download from Website](https://renegadeinc.net)
 
 🔗 [Download from Google Play](https://play.google.com/store/apps/details?id=me.devnull.renegadeincai)
 
@@ -78,14 +78,14 @@ Technology stack documentation:
 
 ## 💰 Donate
 
-* [Patreon](https://patreon.com/rikkahub)
+* [Patreon](https://patreon.com/renegadehub)
 * [爱发电](https://afdian.com/a/reovo)
 
 ## ⭐ Star History
 
 If you like this project, please give it a star ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=re-ovo/rikkahub&type=Date)](https://star-history.com/#re-ovo/rikkahub&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=re-ovo/renegadehub&type=Date)](https://star-history.com/#re-ovo/renegadehub&Date)
 
 ## 📄 License
 

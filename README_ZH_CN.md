@@ -77,14 +77,14 @@
 
 ## 💰 捐赠
 
-* [Patreon](https://patreon.com/rikkahub)
+* [Patreon](https://patreon.com/renegadehub)
 * [爱发电](https://afdian.com/a/reovo)
 
 ## ⭐ Star History
 
 如果喜欢这个项目，请给个Star ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=re-ovo/rikkahub&type=Date)](https://star-history.com/#re-ovo/rikkahub&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=re-ovo/renegadehub&type=Date)](https://star-history.com/#re-ovo/renegadehub&Date)
 
 ## 📄 许可证
 
