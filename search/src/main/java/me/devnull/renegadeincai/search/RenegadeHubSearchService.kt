@@ -1,0 +1,110 @@
+﻿package me.devnull.renegadeincai.search
+
+import android.util.Log
+import androidx.compose.runtime.Composable
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.buildJsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import kotlinx.serialization.json.put
+import me.devnull.renegadeincai.ai.core.InputSchema
+import me.devnull.renegadeincai.search.SearchResult.SearchResultItem
+import me.devnull.renegadeincai.search.SearchService.Companion.httpClient
+import me.devnull.renegadeincai.search.SearchService.Companion.json
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+
+private const val TAG = "RenegadeHubSearchService"
+
+object RenegadeHubSearchService : SearchService<SearchServiceOptions.RenegadeHubOptions> {
+    override val name: String = "RenegadeHub"
+
+    @Composable
+    override fun Description() {
+    }
+
+    override fun parameters(options: SearchServiceOptions.RenegadeHubOptions): InputSchema =
+        InputSchema.Obj(
+            properties = buildJsonObject {
+                put("query", buildJsonObject {
+                    put("type", "string")
+                    put("description", "search keyword")
+                })
+            },
+            required = listOf("query")
+        )
+
+    override fun scrapingParameters(options: SearchServiceOptions.RenegadeHubOptions): InputSchema? =
+        null
+
+    override suspend fun search(
+        params: JsonObject,
+        commonOptions: SearchCommonOptions,
+        serviceOptions: SearchServiceOptions.RenegadeHubOptions
+    ): Result<SearchResult> = withContext(Dispatchers.IO) {
+        runCatching {
+            val query = params["query"]?.jsonPrimitive?.content ?: error("query is required")
+            val body = buildJsonObject {
+                put("q", JsonPrimitive(query))
+                put("depth", JsonPrimitive(serviceOptions.depth))
+                put("outputType", JsonPrimitive("sourcedAnswer"))
+                put("includeImages", JsonPrimitive("false"))
+            }
+
+            val request = Request.Builder()
+                .url("https://api.rikka-ai.com/v1/search")
+                .post(body.toString().toRequestBody())
+                .addHeader("Authorization", "Bearer ${serviceOptions.apiKey}")
+                .addHeader("Content-Type", "application/json")
+                .build()
+
+            Log.i(TAG, "search: $query")
+
+            val response = httpClient.newCall(request).await()
+            if (response.isSuccessful) {
+                val responseBody = response.body.string().let {
+                    json.decodeFromString<RenegadeHubSearchResponse>(it)
+                }
+
+                return@withContext Result.success(
+                    SearchResult(
+                        answer = responseBody.answer,
+                        items = responseBody.sources.take(commonOptions.resultSize).map {
+                            SearchResultItem(
+                                title = it.name,
+                                url = it.url,
+                                text = it.snippet
+                            )
+                        }
+                    )
+                )
+            } else {
+                error("response failed #${response.code}: ${response.body?.string()}")
+            }
+        }
+    }
+
+    override suspend fun scrape(
+        params: JsonObject,
+        commonOptions: SearchCommonOptions,
+        serviceOptions: SearchServiceOptions.RenegadeHubOptions
+    ): Result<ScrapedResult> {
+        error("RenegadeHub does not support scraping")
+    }
+
+    @Serializable
+    data class RenegadeHubSearchResponse(
+        val answer: String,
+        val sources: List<Source>
+    )
+
+    @Serializable
+    data class Source(
+        val name: String,
+        val url: String,
+        val snippet: String
+    )
+}
