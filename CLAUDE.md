@@ -1,10 +1,10 @@
-# CLAUDE.md
+﻿# CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
 
-RikkaHub is a native Android LLM chat client that supports switching between different AI providers for conversations.
+RenegadeHub is a native Android LLM chat client that supports switching between different AI providers for conversations.
 Built with Jetpack Compose, Kotlin, and follows Material Design 3 principles.
 
 ## Architecture Overview
